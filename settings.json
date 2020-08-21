@@ -88,5 +88,8 @@
         "stash-push:command",
         "switch:command",
         "pull:command"
-    ]
+    ],
+        
+    // Neovim
+    "vscode-neovim.neovimPath": "/usr/bin/nvim
 }
