@@ -9,6 +9,8 @@
     * 2. VSIntellicode                             *
     * 3. TODO Highlight                            *
     * 4. Gitlens                                   *
+    * 5. Neovim                                    *
+    * 6. Gruvbox                                   *
     *                                              *
     ************************************************/
 
@@ -89,7 +91,14 @@
         "switch:command",
         "pull:command"
     ],
-        
+    
     // Neovim
-    "vscode-neovim.neovimPath": "/usr/bin/nvim"
+    "vscode-neovim.neovimPath": "/usr/bin/nvim",
+
+    // Theme
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "gruvboxMaterial.darkPalette": "mix",
+    "gruvboxMaterial.lightContrast": "soft",
+    "gruvboxMaterial.darkContrast": "hard",
+    "gruvboxMaterial.darkWorkbench": "high-contrast"
 }
