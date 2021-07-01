@@ -1,5 +1,4 @@
 {
-  // VS
   "settingsSync.ignoredExtensions": [],
 
   "workbench.colorTheme": "BeardedTheme Arc Eolstorm",
@@ -14,7 +13,6 @@
   "explorer.confirmDragAndDrop": false,
   "diffEditor.ignoreTrimWhitespace": false,
 
-  // Prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -47,14 +45,12 @@
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
 
-  // ESlint
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": false,
     "source.fixAll.tslint": false,
     "source.fixAll.stylelint": false
   },
 
-  // bracket-pair-colorizer-2 opts
   "bracket-pair-colorizer-2.colors": [],
   "bracket-pair-colorizer-2.scopeLineCSS": [
     "borderStyle : solid",
@@ -63,7 +59,6 @@
     "opacity: 0.4"
   ],
 
-  // Gitlens
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.gitCommands.skipConfirmations": [
     "fetch:command",
@@ -72,16 +67,13 @@
     "pull:command"
   ],
 
-  // TODO Highlight
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": false,
   "todohighlight.keywords": ["@mna:", "@mdr", "@rtu", "@auk"],
 
-  // Svelte
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
 
-  // VSIntellicode
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration"
 }
